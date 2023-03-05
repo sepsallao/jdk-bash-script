@@ -2,7 +2,7 @@
 
 ### Install the necessary build tools:
 ```
-sudo dnf install autoconf automake freetype-devel gcc gcc-c++ git libtool make patch zip glibc-devel.x86_64 libstdc++-devel.x86_64 zlib-devel.x86_64 alsa-lib-devel
+sudo dnf install autoconf automake freetype-devel gcc gcc-c++ git libtool make patch zip glibc-devel.x86_64 libstdc++-devel.x86_64 zlib-devel.x86_64 alsa-lib-devel cups-devel fontconfig-devel libXtst-devel libXt-devel libXrender-devel libXrandr-devel libXi-devel
 ```
 
 ### Clone the OpenJDK Git repository:
