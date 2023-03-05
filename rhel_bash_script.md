@@ -1,4 +1,4 @@
-# Sure! Here are the updated steps for building OpenJDK from the Git repository on RHEL 8:
+# Steps for building OpenJDK from the Git repository on RHEL 8:
 
 ### Install the necessary build tools:
 ```
