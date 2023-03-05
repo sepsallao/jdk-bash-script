@@ -23,6 +23,8 @@ git checkout jdk-19+36
 ### Run the configure script to generate the makefiles and configure the build options. Here is an example of the command to run:
 ```
 bash configure --disable-warnings-as-errors --disable-hotspot-gtest --with-jvm-variants=server --with-extra-ldflags="-Wl,--no-as-needed"
+
+bash configure --disable-warnings-as-errors --with-jvm-variants=server --with-extra-ldflags="-Wl,--no-as-needed"
 ```
 
 This command disables treating warnings as errors, disables the HotSpot Google Test framework, configures the build for the server JVM 
