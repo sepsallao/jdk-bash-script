@@ -24,6 +24,8 @@ git checkout jdk-19+36
 ```
 bash configure --disable-warnings-as-errors --disable-hotspot-gtest --with-jvm-variants=server --with-extra-ldflags="-Wl,--no-as-needed"
 
+or
+
 bash configure --disable-warnings-as-errors --with-jvm-variants=server --with-extra-ldflags="-Wl,--no-as-needed"
 ```
 
